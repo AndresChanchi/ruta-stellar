@@ -44,7 +44,7 @@ git config --global user.email "tu-correo@javeriana.edu.co"
 
 # Parte 1 · Fork y clone del repositorio central
 
-El repositorio es público: `https://github.com/javeblockchain/ruta-2026-II`. Tú no escribes directo en él; haces una copia a tu cuenta (*fork*), trabajas ahí y luego propones tus cambios (*pull request*). Es exactamente como se contribuye a cualquier proyecto de código abierto.
+El repositorio es público: `https://github.com/Javeriana-Blockchain/ruta-2026-II`. Tú no escribes directo en él; haces una copia a tu cuenta (*fork*), trabajas ahí y luego propones tus cambios (*pull request*). Es exactamente como se contribuye a cualquier proyecto de código abierto.
 
 1. Abre el repositorio en GitHub y haz clic en **Fork** (arriba a la derecha) → **Create fork**. Ahora existe `github.com/<tu-usuario>/ruta-2026-II`.
 2. En **tu** fork, botón verde **Code** → **HTTPS** → copia la URL.
@@ -139,7 +139,7 @@ Clona la plantilla de Builders (en otra carpeta, fuera de `ruta-2026-II`) y corr
 
 ```bash
 cd ~/Documents
-git clone https://github.com/javeblockchain/template-builders.git
+git clone https://github.com/Javeriana-Blockchain/template-builders.git
 cd template-builders
 cargo test
 ```
