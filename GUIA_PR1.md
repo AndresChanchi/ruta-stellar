@@ -167,7 +167,7 @@ Un commit por cambio, mensaje `tipo: descripción` (ver `CONTRIBUTING.md`). `git
 git push -u origin ficha/<tu-usuario>
 ```
 
-2. Abre tu fork en GitHub. Aparece un aviso *«ficha/<tu-usuario> had recent pushes»* con el botón **Compare & pull request**. Haz clic. Verifica arriba que diga: base repository `javeblockchain/ruta-2026-II`, base `main` ← head repository `<tu-usuario>/ruta-2026-II`, compare `ficha/<tu-usuario>`.
+2. Abre tu fork en GitHub. Aparece un aviso *«ficha/<tu-usuario> had recent pushes»* con el botón **Compare & pull request**. Haz clic. Verifica arriba que diga: base repository `Javeriana-Blockchain/ruta-2026-II`, base `main` ← head repository `<tu-usuario>/ruta-2026-II`, compare `ficha/<tu-usuario>`.
 3. Título: `PR #1 · <tu nombre>`.
 4. La descripción viene **prellenada con la plantilla**. No la borres: llénala.
    - *Qué hace este PR:* «Agrega mi ficha de participante».
@@ -182,7 +182,7 @@ Si después de abrir el PR te piden cambios: edita el archivo, `git add`, `git c
 
 # Parte 7 · Checklist antes de dar por entregado
 
-- [ ] El PR está abierto contra `javeblockchain/ruta-2026-II` antes del lunes 20 a las 11:59 p. m.
+- [ ] El PR está abierto contra `Javeriana-Blockchain/ruta-2026-II` antes del lunes 20 a las 11:59 p. m.
 - [ ] El archivo se llama exactamente `participantes/<tu-usuario>.md` y no tocaste `PLANTILLA.md`.
 - [ ] La dirección `G…` tiene 56 caracteres y el enlace al explorador abre tu transacción.
 - [ ] El párrafo tiene 150 palabras o menos y lo escribiste tú.
@@ -198,7 +198,7 @@ Si después de abrir el PR te piden cambios: edita el archivo, `git add`, `git c
 |---|---|---|
 | `git push` pide contraseña y la rechaza | GitHub no acepta contraseñas por HTTPS | Personal Access Token (Parte 1) o GitHub Desktop |
 | `Permission denied` al hacer push | Clonaste el repo central y no tu fork | Haz fork, clona **tu** copia y vuelve a intentar |
-| El PR no muestra la plantilla | Abriste el PR dentro de tu propio fork | Verifica que la base sea `javeblockchain/ruta-2026-II` |
+| El PR no muestra la plantilla | Abriste el PR dentro de tu propio fork | Verifica que la base sea `Javeriana-Blockchain/ruta-2026-II` |
 | Conflicto en el PR | Alguien editó el mismo archivo | No debería pasar: cada persona tiene su archivo. Si pasa, avísame |
 | `rustc: command not found` tras instalar | La terminal no recargó el PATH | Cierra y abre la terminal; en Linux/macOS `source ~/.cargo/env` |
 | `error: linker 'cc' not found` (Linux/WSL) | Faltan herramientas de compilación | `sudo apt install build-essential` |

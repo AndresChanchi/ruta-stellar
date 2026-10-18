@@ -41,8 +41,8 @@ Office hours: todos los martes, virtual, 60 min (enlace en el grupo).
 
 ## Plantillas para los repos de equipo (desde la S2)
 
-- `javeblockchain/template-fundamentos`
-- `javeblockchain/template-builders`
+- `Javeriana-Blockchain/template-fundamentos`
+- `Javeriana-Blockchain/template-builders`
 
 ## Política de uso de IA
 
